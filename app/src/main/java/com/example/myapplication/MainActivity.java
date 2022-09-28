@@ -27,11 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fragment3 = new Fragment3();
         fragment4 = new Fragment4();
         manager = getSupportFragmentManager();
-        FragmentTransaction transaction = manager.beginTransaction();
-        transaction.add(R.id.FrameLayout, fragment1);
-        transaction.add(R.id.FrameLayout, fragment2);
-        transaction.add(R.id.FrameLayout, fragment3);
-        transaction.add(R.id.FrameLayout, fragment4);
 
 
         linearLayout1=findViewById(R.id.layout1);

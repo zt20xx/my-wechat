@@ -38,7 +38,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.Myholder> {
         //视图里面放什么数据
         //循环一一对应
         //一个 holder 对应 一行
-        //不需要for循环
+        //不需要自己写for循环
         holder.textView.setText(list.get(j));
 
 
